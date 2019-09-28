@@ -54,7 +54,9 @@ Since the public key is quite long and difficult to remember, let's save it as a
 
     export CODA_PK=<public-key>
 
-Now we can access this everywhere as `$CODA_PK`. Note that this will only be saved for the current shell session, so if you want to save it for future use, you can add it to your `~/.profile` or `~/.bash_profile`.
+Now we can access this everywhere as `$CODA_PK`. Note that this will only be saved for the current shell session, so if you want to save it for future use, you can add it to your `~/.profile` or `~/.bash_profile`, by the command 
+
+    echo export CODA_PK=[public-key] >> .bashrc , or .profile
 
 ## Request coda
 

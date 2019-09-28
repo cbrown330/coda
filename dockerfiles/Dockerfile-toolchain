@@ -1,6 +1,9 @@
 FROM ocaml/opam2:debian-9-ocaml-4.08
 
 ARG OCAML_VERSION=4.07.1
+ARG OPAMKEEPBUILDDIR=true
+
+# in CI use OPAMREUSEBUILDDIR=true
 
 RUN sudo git clone https://github.com/CodaProtocol/coda /coda
 RUN cd /coda && git submodule status src/external/async_kernel | awk '{print $1}' > ~/opam-repository/async_kernel.commit

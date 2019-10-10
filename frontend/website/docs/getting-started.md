@@ -28,6 +28,7 @@ O(1) Labs has tested running nodes on several cloud providers, and recommends th
 - Digital Ocean - [c-8-16gib](https://cloud.digitalocean.com/droplets/new?size=c-8-16gib)
 
 ## Installation
+\\\\\\  maybe put it here?
 
 The newest binary releases can be found below. Instructions are provided for macOS and Linux below:
 
